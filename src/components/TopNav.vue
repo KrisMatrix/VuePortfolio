@@ -16,7 +16,6 @@
   font-size: 2em;
   display: grid;
   grid-template-columns: 1fr 10fr 1fr
-
 }
 </style>
 
