@@ -1,9 +1,9 @@
 <template>
   <div class="topnav">
-    <div style="background-color: blue;"
+    <div style="background-color: blue; cursor: pointer;"
       @click="toggleSideNav()">Menu</div>
     <div>EngrExpo</div>
-    <div style="background-color: blue;">Settings</div>
+    <div style="background-color: blue; cursor: pointer;">Settings</div>
   </div>
 </template>
 
