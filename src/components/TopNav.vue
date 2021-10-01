@@ -2,8 +2,10 @@
   <div class="topnav">
     <div style="background-color: blue; cursor: pointer;"
       @click="toggleSideNav()">Menu</div>
-    <div>EngrExpo</div>
+    <div>EngrExpo (Work In Progress)</div>
+    <!--
     <div style="background-color: blue; cursor: pointer;">Settings</div>
+    -->
   </div>
 </template>
 

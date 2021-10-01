@@ -51,6 +51,11 @@
   background-color: white;
 }
 
+.imgBlock figure:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+}
+
 .imgBlock img {
   width: 100%;
 }

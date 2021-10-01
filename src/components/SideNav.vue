@@ -7,7 +7,7 @@
 <!--      <li @click="gotopage('power-system')">Power System</li>-->
       <li @click="gotopage('game-dev')">Game Development</li>
       <li @click="gotopage('art-traditional')">Art</li>
-      <li @click="gotopage('art-digital')">Digital Art</li>
+      <li @click="gotopage('art-digital')">DigiArt</li>
 <!--      <li @click="gotopage('music')">Music</li>-->
     </ul>
   </div>
@@ -18,7 +18,7 @@
   position: relative;
   background-color: pink;
   min-height: 100%;
-  width: 100%;
+  width: 40%;
   z-index: 1;
 }
 

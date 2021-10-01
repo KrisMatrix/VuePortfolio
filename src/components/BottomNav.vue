@@ -1,5 +1,15 @@
 <template>
-  <div class="btmnav">Footer</div>
+  <div class="btmnav">
+    <div>
+      <a href="https://github.com/KrisMatrix">GitHub Repo</a>
+    </div>
+    <div>
+    &copy; Copyright 2021 Krishna Karnamadakala
+    </div>
+    <div>
+      <a href="mailto:krishnaprashanth2004@yahoo.com">Contact</a>
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -13,6 +23,19 @@
   font-size: 1.0em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.btmnav a:hover {
+  cursor: pointer;
+}
+
+.btmnav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 </style>

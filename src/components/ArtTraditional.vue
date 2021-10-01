@@ -1,6 +1,8 @@
 <template>
 <div class="artBlock">
   <h2>Traditional Art</h2>
+  <p>I enjoy pencil sketching, painting, and creating art in the traditional
+  way. Here I showcase some of my art pieces.</p>
 
 <!--Horizontal-->
   <div class="imgBlock">
@@ -28,15 +30,11 @@
     <img src="@/assets/images/tradart9_small.jpeg" alt="Traditional Art 1">
     <figcaption>Negative Space Girl in Village</figcaption>
   </figure>
-  <figure>
-    <img src="@/assets/images/tradart12_small.jpeg" alt="Traditional Art 1">
-    <figcaption>Negative Space Murder</figcaption>
-  </figure>
+  <!--Vertical-->
   <figure>
     <img src="@/assets/images/tradart13_small.jpeg" alt="Traditional Art 1">
     <figcaption>Snow Girl</figcaption>
   </figure>
-<!--Vertical-->
   <figure>
     <img src="@/assets/images/tradart3_small.jpeg" alt="Traditional Art 1">
     <figcaption>Horse Acrylic with Pallete Knife</figcaption>
@@ -57,6 +55,13 @@
     <img src="@/assets/images/tradart11_small.jpeg" alt="Traditional Art 1">
     <figcaption>Comic Art</figcaption>
   </figure>
+
+  <!--Horizontal-->
+  <figure>
+    <img src="@/assets/images/tradart12_small.jpeg" alt="Traditional Art 1">
+    <figcaption>Negative Space Murder</figcaption>
+  </figure>
+
   </div>
 </div>
 
@@ -82,6 +87,12 @@
 
 .imgBlock img {
   width: 100%;
+  border-radius: 150px;
+}
+
+.imgBlock figure:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-out;
 }
 
 .imgBlock figcaption {
