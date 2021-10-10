@@ -16,9 +16,9 @@
 <style scoped>
 .sidenav {
   position: relative;
-  background-color: pink;
+  background-color: #419c59;
   min-height: 100%;
-  width: 40%;
+  width: 35%;
   z-index: 1;
 }
 
@@ -30,14 +30,14 @@
 }
 
 .sidenav li {
-  font-size: 2em;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  font-size: 1.5em;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .sidenav li:hover {
   cursor: pointer;
-  background-color: yellow;
+  background-color: #90e8a7;
 }
 </style>
 
