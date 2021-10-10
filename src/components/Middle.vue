@@ -9,7 +9,7 @@
 .middle {
   position: relative;
   display: flex;
-  background-color: green;
+  background-color: #6db07f;
   min-height: 100%;
 }
 </style>
