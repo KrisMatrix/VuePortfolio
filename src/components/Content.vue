@@ -30,7 +30,7 @@
 <style scoped>
 .content {
   position: relative;
-  background-color: yellow;
+  background-color: #6db07f;
   min-height: 100%;
   width: 100%;
   height: 100%;
