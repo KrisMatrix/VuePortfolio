@@ -3,9 +3,12 @@
     <h2>Hi! I'm Krishna</h2>
     <div class="aboutMeBlock">
     <img src="@/assets/images/profile.jpeg" alt="Picture of Krishna">
-    <p>I built this portfolio to showcase some of the work I've done in various area of interest. It serves as a technical repo of some of the projects I've done, but I also wanted a place to house some of my creative projects as well.
-    
-    Filler content Just trying to see how this looks in multiple paragraphs
+    <p>I built this portfolio to showcase some of the work I've done in various
+    area of interest. It serves as a technical repo of some of the projects
+    I've done, but I also wanted a place to house some of my creative projects
+    as well.</p>
+
+    <p>Filler content Just trying to see how this looks in multiple paragraphs
     Filler content Just trying to see how this looks in multiple paragraphs
     Filler content Just trying to see how this looks in multiple paragraphs
     Filler content Just trying to see how this looks in multiple paragraphs
